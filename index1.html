@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAMCET College Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>EAMCET College Finder</h1>
+            <p>Your Guide to the Top EAMCET Colleges</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#colleges">Top Colleges</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Find Your Dream College with EAMCET</h2>
+        <p>Explore the top colleges based on your EAMCET rank, course preferences, and more.</p>
+        <a href="#colleges" class="btn">Explore Colleges</a>
+    </section>
+
+    <!-- College Filter Section -->
+    <section class="college-filter">
+        <h2>Filter Colleges</h2>
+        <select id="streamFilter">
+            <option value="all">All Streams</option>
+            <option value="engineering">Engineering</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="medical">Medical</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Search Colleges">
+    </section>
+
+    <!-- Top Colleges Section -->
+    <section class="top-colleges" id="colleges">
+        <h2>Top EAMCET Colleges</h2>
+        <div class="college-list" id="collegeList">
+            <!-- College items will appear here dynamically -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 EAMCET College Finder. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
